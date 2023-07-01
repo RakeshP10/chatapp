@@ -125,17 +125,17 @@
 }
 
 .self {
-  align-self: flex-end;
-  background-color: #f3f3f3;
-  margin-left: auto; 
-  margin-right: 20px; 
-}
-
-.other {
   align-self: flex-start;
   background-color: #dcf8c6;
   margin-right: auto;
   margin-left: 20px;
+}
+
+.other {
+  align-self: flex-end;
+  background-color: #f3f3f3;
+  margin-left: auto; 
+  margin-right: 20px; 
 }
 
 .right-screen {
